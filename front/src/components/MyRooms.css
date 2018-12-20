@@ -1,0 +1,38 @@
+.roomsSide{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 80px 20px;
+}
+.MyRooms{
+  height: 100%
+}
+.MyRooms, .roomsRow{
+  height: 100%;
+  width: 100%;
+}
+.objects{
+  height: 80%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.roomName{
+  margin-bottom: 50px;
+}
+button{
+  height: 90px;
+  width: 90px;
+  background: none;
+  border: 1px solid green;
+  border-radius: 50% !important;
+
+}
+button:hover{
+  background-color: green;
+  border: 1px solid lightgreen;
+  color: white;
+}
+button:focus{
+  background-color: blue;
+  color: white;
+}

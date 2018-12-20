@@ -7,7 +7,7 @@ const MyHome = (props) => (
     <ul>
       {props.objectsList.map(objectEl => {
         return(
-          <li>{objectEl.name} | consommation électrique : {objectEl.consumption} W</li>
+          <li key={objectEl.id}>{objectEl.name} | consommation électrique : {objectEl.consumption} W</li>
         )
       })}
     </ul>
@@ -16,7 +16,7 @@ const MyHome = (props) => (
 
 function mstp(state) {
   return{
-    objectsList: state.objectsList,
+    objectsList: state.room1Objects,
   }
 }
  
