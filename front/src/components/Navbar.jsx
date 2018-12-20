@@ -56,7 +56,7 @@ export default class Navigation extends React.Component {
           </NavLink>
         </NavItem>
         <NavItem className="nav-items">
-          <NavLink href="/trophees/">
+          <NavLink href="/myBadges/">
        
             <img
               className="trophees"
