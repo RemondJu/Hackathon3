@@ -3,7 +3,7 @@ import './App.css';
 import HomePage from './components/HomePage';
 import { Switch, Route } from 'react-router-dom';
 import MyHome from './components/MyHome';
-import MyRooms from './components/MyRooms';
+import MyRooms from './containers/MyRooms';
 
 class App extends Component {
   render() {

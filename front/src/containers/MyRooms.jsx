@@ -1,17 +1,18 @@
 import React from 'react';
 import { Col, Row } from 'reactstrap';
-import Object from './Object';
+import Object from '../components/Object';
 import { connect } from 'react-redux';
-import './MyRooms.css'
-
+import '../components/MyRooms.css'  
+import { roomClick } from '../actions'
+import { bindActionCreators } from 'redux';
 
 const MyRooms = (props) => (
   <div className="MyRooms">
     <Row className="roomsRow">
       <Col sm="2" className="roomsSide">
-        {props.roomList.map(room => {
+        {props.roomList.map((room, index) => {
           return (
-            <button type="button" className="room">
+            <button key={room.id} type="button" className="room" onClick={() => props.roomClick(index)} name={room.type}>
               {room.name}
             </button>
           );
@@ -20,9 +21,10 @@ const MyRooms = (props) => (
       <Col className="text-center mt-5">
         <h2 className="roomName">Salon</h2>
         <div className="objects">
-          {props.room1Objects.map(object => {
+          {props.roomObjects.map(object => {
             return(
               <Object
+                key={object.id}
                 name={object.name}
                 type={object.type}
                 consumption={object.consumption}
@@ -38,8 +40,14 @@ const MyRooms = (props) => (
 function mstp(state) {
   return {
     roomList: state.roomList,
-    room1Objects: state.room1Objects,
+    roomObjects: state.roomObjects,
   }
 }
+
+function mdtp(dispatch){
+  return bindActionCreators({
+    roomClick
+  }, dispatch)
+}
  
-export default connect(mstp)(MyRooms);
+export default connect(mstp, mdtp)(MyRooms);
