@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import HomePage from './components/HomePage';
 import { Switch, Route } from 'react-router-dom';
-import MyHome from './components/MyHome';
 import Navigation from './components/Navbar';
 import MyRooms from './containers/MyRooms';
 

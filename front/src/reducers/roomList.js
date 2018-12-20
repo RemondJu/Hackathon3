@@ -29,7 +29,7 @@ const initialState = [
   },
   {
     id: 5,
-    name: "chambre 2",
+    name: "Chambre 2",
     type: "chambre",
     consumption: 1,
     selected: false,
