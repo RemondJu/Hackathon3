@@ -68,7 +68,7 @@ export default class Navigation extends React.Component {
           </NavLink>
         </NavItem>
         <NavItem className="nav-items">
-          <NavLink href="/moncompte/">
+          <NavLink href="/mon-compte">
             
             <img
               className="moncompte"
@@ -79,6 +79,7 @@ export default class Navigation extends React.Component {
             />
           </NavLink>
         </NavItem>
+
       </nav>
     );
   }

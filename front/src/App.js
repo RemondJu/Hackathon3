@@ -5,6 +5,7 @@ import { Switch, Route } from 'react-router-dom';
 import MyHome from './components/MyHome';
 import Navigation from './components/Navbar';
 import MyRooms from './containers/MyRooms';
+import MonCompte from './components/MonCompte';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
           <Route exact path="/" component={HomePage} />
           <Route path="/myHome" component={MyHome} />
           <Route path="/myRooms" component={MyRooms} />
+          <Route path="/mon-compte" component={MonCompte} />
         </Switch>
       </div>
     );
