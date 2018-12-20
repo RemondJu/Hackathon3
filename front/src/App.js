@@ -6,6 +6,8 @@ import Navigation from './components/Navbar';
 import MyRooms from './containers/MyRooms';
 import MyHome from './components/MyHome';
 import MyBadges from './components/MyBadges';
+import PageRegist from './components/PageRegist';
+
 
 class App extends Component {
   render() {
@@ -16,7 +18,10 @@ class App extends Component {
           <Route exact path="/" component={HomePage} />
           <Route path="/myHome" component={MyHome} />
           <Route path="/myRooms" component={MyRooms} />
+
           <Route path="/myBadges" component={MyBadges} />
+
+          <Route path="/pageRegister" component={PageRegist} />
         </Switch>
       </div>
     );

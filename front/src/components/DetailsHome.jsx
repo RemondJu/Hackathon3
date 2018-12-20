@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Card, CardBody, CardTitle, CardSubtitle } from 'reactstrap';
 import "./DetailsHome.css";
+import { Link } from 'react-router-dom';
 
 class DetailsHome extends Component {
   constructor(props) {
@@ -40,13 +41,15 @@ class DetailsHome extends Component {
   render() {
     return (
       <div className="DetailsHome">
-        <Card className="card-details-home">
-          <CardBody className="card-body-details-home">
-            <CardTitle>{this.props.name}</CardTitle>
-            <CardSubtitle>Consommation actuelle: {this.props.consumption}</CardSubtitle>
-          </CardBody>          
-          <img className="image-card-piece" width="100%" src={this.state.imageSource} alt="pictogram rooms" />
-        </Card >
+        <Link to="/MyRooms">
+          <Card className={`card-details-home ${this.props.classColor}`} >
+            <CardBody className="card-body-details-home">
+              <CardTitle className="title-card-details">{this.props.name}</CardTitle>
+              <CardSubtitle>Consommation actuelle : {this.props.consumption}</CardSubtitle>
+            </CardBody>          
+            <img className="image-card-piece" width="100%" src={this.state.imageSource} alt="pictogram rooms" />
+          </Card >
+        </Link>
       </div >
     );
   }
