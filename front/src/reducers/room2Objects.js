@@ -31,7 +31,7 @@ const initialState = [
   }
 ]
 
-export const objectsList = (state = initialState, action) => {
+export const room2Objects = (state = initialState, action) => {
   switch(action.type) {
     default: return state;
   }

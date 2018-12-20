@@ -1,0 +1,10 @@
+.Object{
+  margin: 10px 0px;
+  padding: 10px 0px;
+  border-radius: 8px;
+  background-color: lightskyblue;
+}
+.Object img{
+  border-radius: 8px;
+  margin: 0px 20px;
+}
