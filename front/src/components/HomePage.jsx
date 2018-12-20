@@ -15,7 +15,7 @@ const HomePage = () => (
           md={3}
           sm={2}
         >
-          <NavLink to="/myHome">
+          <NavLink to="/pageRegister">
             <Button className="homepage-button-first" color="primary">
               INSCRIPTION
               <i class="far fa-edit" />
