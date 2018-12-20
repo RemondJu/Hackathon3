@@ -1,3 +1,11 @@
+.HomePage {
+  background-image: url("http://image.noelshack.com/fichiers/2018/51/4/1545342208-architecture-1836070-1920.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 .homepage-button-wrap {
   display: flex;
   align-items: center;
