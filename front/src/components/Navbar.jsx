@@ -26,8 +26,8 @@ export default class Navigation extends React.Component {
               className="home"
               src="../images/home.png"
               alt="logoNavbar"
-              height="50"
-              width="50"
+              height="40"
+              width="40"
             />
           </NavLink>
         </NavItem>
@@ -38,8 +38,8 @@ export default class Navigation extends React.Component {
               className="favoris"
               src="../images/fav.png"
               alt="logoNavbar"
-              height="50"
-              width="50"
+              height="40"
+              width="40"
             />
           </NavLink>
         </NavItem>
@@ -50,8 +50,8 @@ export default class Navigation extends React.Component {
               className="logo"
               src="../images/logo.png"
               alt="logoNavbar"
-              height="80"
-              width="150"
+              height="60"
+              width="130"
             />
           </NavLink>
         </NavItem>
@@ -62,8 +62,8 @@ export default class Navigation extends React.Component {
               className="trophees"
               src="../images/trophee.png"
               alt="logoNavbar"
-              height="50"
-              width="50"
+              height="40"
+              width="40"
             />
           </NavLink>
         </NavItem>
@@ -74,8 +74,8 @@ export default class Navigation extends React.Component {
               className="moncompte"
               src="../images/profile.png"
               alt="logoNavbar"
-              height="50"
-              width="50"
+              height="40"
+              width="40"
             />
           </NavLink>
         </NavItem>
