@@ -1,0 +1,13 @@
+.Nav {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.fas {
+  width: 200px;
+}
+
+.logo {
+}
