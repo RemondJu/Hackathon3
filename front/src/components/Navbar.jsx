@@ -1,12 +1,6 @@
-import React from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  Nav,
-  NavItem,
-  NavLink } from 'reactstrap';
-  import './Navbar.css';
+import React from "react";
+import { NavItem, NavLink } from "reactstrap";
+import "./Navbar.css";
 
 export default class Navigation extends React.Component {
   constructor(props) {
@@ -24,30 +18,68 @@ export default class Navigation extends React.Component {
   }
   render() {
     return (
-      <div className="Nav" >
-        <Navbar color="light" light expand="md">
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-            <NavItem className="nav-items" >
-                <NavLink href="/myhome/"> <i className="fas fa-home"></i> </NavLink>
-              </NavItem>
-              <NavItem className="nav-items" >
-                <NavLink href="/favoris/"> <i className="fas fa-star"></i> </NavLink>
-              </NavItem>
-              <NavItem className="nav-items" >
-                <NavLink href="/homepage/"> <img className="logo" src="../images/logo.png" alt="logoNavbar" height="50" width="100" /> </NavLink>
-              </NavItem>
-              <NavItem className="nav-items" >
-                <NavLink href="/trophees/"> <i className="fas fa-trophy"></i> </NavLink>
-              </NavItem>
-              <NavItem className="nav-items" >
-                <NavLink href="/moncompte/"> <i className="items fas fa-user-circle"></i> </NavLink>
-              </NavItem>  
-            </Nav>
-          </Collapse>
-        </Navbar>
-      </div>
+      <nav className="nav">
+        <NavItem className="nav-items">
+          <NavLink href="/myhome/">
+
+            <img
+              className="home"
+              src="../images/home.png"
+              alt="logoNavbar"
+              height="50"
+              width="50"
+            />
+          </NavLink>
+        </NavItem>
+        <NavItem className="nav-items">
+          <NavLink href="/favoris/">
+
+            <img
+              className="favoris"
+              src="../images/fav.png"
+              alt="logoNavbar"
+              height="50"
+              width="50"
+            />
+          </NavLink>
+        </NavItem>
+        <NavItem className="nav-items">
+          <NavLink href="/homepage/">
+          
+            <img
+              className="logo"
+              src="../images/logo.png"
+              alt="logoNavbar"
+              height="80"
+              width="150"
+            />
+          </NavLink>
+        </NavItem>
+        <NavItem className="nav-items">
+          <NavLink href="/trophees/">
+       
+            <img
+              className="trophees"
+              src="../images/trophee.png"
+              alt="logoNavbar"
+              height="50"
+              width="50"
+            />
+          </NavLink>
+        </NavItem>
+        <NavItem className="nav-items">
+          <NavLink href="/moncompte/">
+            
+            <img
+              className="moncompte"
+              src="../images/profile.png"
+              alt="logoNavbar"
+              height="50"
+              width="50"
+            />
+          </NavLink>
+        </NavItem>
+      </nav>
     );
   }
 }

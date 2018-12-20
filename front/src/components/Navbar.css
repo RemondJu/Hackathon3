@@ -1,13 +1,29 @@
-.Nav {
+.nav {
+  background-color: rgb(245, 245, 245);
   overflow: hidden;
   position: fixed;
   bottom: 0;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 5%;
+  display: flex;
+  align-items: center;
+
 }
 
-.fas {
-  width: 200px;
+.home:hover {
+  content: url(/images/homehover.png);
 }
 
-.logo {
+.favoris:hover {
+  content: url(/images/favhover.png);
+}
+
+.trophees:hover {
+  content: url(/images/tropheehover.png);
+}
+
+.moncompte:hover {
+  content: url(/images/profilehover.png);
 }
