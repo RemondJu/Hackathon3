@@ -1,3 +1,5 @@
-export const cardClick1 = () => ({
-  type: 'CLICKED_KNIGHT'
+export const roomClick = (idx) => ({
+  type: 'ROOM_CLICKED',
+  idx,
 });
+

@@ -1,10 +1,12 @@
 import { combineReducers } from 'redux';
-import { objectsList } from './room1ObjectsList'
+import { roomObjects } from './roomObjects'
 import { roomList } from './roomList';
+import { roomClick } from '../actions';
 
 const allReducers = combineReducers({
-  objectsList,
-  roomList,
+  roomObjects,
+  roomList, 
+  roomClick,
 })
 
 export default allReducers;
