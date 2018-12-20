@@ -9,7 +9,7 @@
   padding-right: 5%;
   display: flex;
   align-items: center;
-
+  z-index: 1000 !important;
 }
 
 .home:hover {

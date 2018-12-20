@@ -1,10 +1,26 @@
-.Object{
-  margin: 10px 0px;
+.objectRow{
+  margin: 10px 30px;
   padding: 10px 0px;
   border-radius: 8px;
   background-color: lightskyblue;
+  display: flex;
+  justify-content: space-between;
 }
-.Object img{
+
+.objectRow img{
   border-radius: 8px;
   margin: 0px 20px;
+}
+
+.objectRow p{
+  align-self: center;
+  margin: 0px;
+}
+
+.objectRow input{
+  margin-right: 25px;
+}
+
+.hidden{
+  display: none;
 }

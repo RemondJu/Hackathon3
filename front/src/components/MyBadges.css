@@ -1,0 +1,11 @@
+.maxProgress{
+  background-color: lightblue;
+  border-radius: 8px;
+}
+
+.currentProgress{
+  background-color: blue;
+  width: 50%;
+  border-radius: 8px 0px 0px 8px;
+  height:20px;
+}
