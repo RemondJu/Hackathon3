@@ -4,18 +4,22 @@
   justify-content: space-around;
   margin: 80px 20px;
 }
+
 .MyRooms{
   height: 100%
 }
+
 .MyRooms, .roomsRow{
   height: 100%;
   width: 100%;
 }
+
 .objects{
   height: 80%;
   overflow-y: scroll;
   overflow-x: hidden;
 }
+
 .objects::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
