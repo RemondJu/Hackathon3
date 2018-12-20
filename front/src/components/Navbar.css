@@ -16,8 +16,8 @@
   content: url(/images/homehover.png);
 }
 
-.favoris:hover {
-  content: url(/images/favhover.png);
+.community:hover {
+  content: url(/images/communityhover.png);
 }
 
 .trophees:hover {
