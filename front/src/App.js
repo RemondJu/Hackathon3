@@ -4,6 +4,7 @@ import HomePage from './components/HomePage';
 import { Switch, Route } from 'react-router-dom';
 import Navigation from './components/Navbar';
 import MyRooms from './containers/MyRooms';
+import MyHome from './components/MyHome';
 
 class App extends Component {
   render() {
