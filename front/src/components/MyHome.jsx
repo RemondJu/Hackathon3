@@ -3,14 +3,14 @@ import { connect } from 'react-redux';
 
 const MyHome = (props) => (
   <div className="MyHome">
-    <h2>My home</h2>
+    <h2>My rooms</h2>
     <ul>
       {props.objectsList.map(objectEl => {
         return(
           <li>{objectEl.name} | consommation électrique : {objectEl.consumption} W</li>
         )
       })}
-    </ul>    
+    </ul>
   </div>
 )
 
