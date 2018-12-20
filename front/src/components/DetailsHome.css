@@ -1,0 +1,15 @@
+.card-details-home {
+  border-radius: 50px 50px!important;
+  margin-bottom: 30px;
+}
+
+.card-body-details-home {
+  text-align: center;
+}
+
+.image-card-piece {
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 50%;
+}

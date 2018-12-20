@@ -9,6 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         EC'HOME
+        <MyHome/>
         <Switch >
           <Route exact path="/" component={HomePage} />
           <Route path="/myHome" component={MyHome} />
