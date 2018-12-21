@@ -35,13 +35,14 @@ const HomePage = () => (
         <Col className="homepage-schema-wrap">
           <img src="/images/Schema.png" alt="schema" className="homepage-schema" />
         </Col>
-      </Row>
-      <Row>
+      </Row> 
+      <Row className="ligne-starter">
         <Col className="starterDesc">
             <h3>Ec'Home starter pack</h3>
             <img src="http://les-smartgrids.fr/wp-content/uploads/2017/10/prise-connectee.png" alt="prise connectée maison" />
             
             <p>Obtenez vos prises connectées et suivez en direct la consommation de votre maison</p>
+            <Button className="homepage-button-first">Acheter le kit pour 29,99€</Button>
         </Col>
       </Row>
     </Container>
