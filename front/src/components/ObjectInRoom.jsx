@@ -7,6 +7,8 @@ class ObjectInRoom extends Component {
     super(props);
     this.state = { 
       objectDivClass: 'hidden',
+      switch: true,
+      switchimg: "./images/switchon.png",
      }
      this.toggleInfos = this.toggleInfos.bind(this);
   }
@@ -23,16 +25,29 @@ class ObjectInRoom extends Component {
     }
   }
 
+  switchOff() {
+    if (this.state.switch === true ){
+    this.setState({
+      switch: false,
+      switchimg: "./images/switchoff.png",
+    })
+  } else {
+    this.setState({
+      switch: true,
+      switchimg: "./images/switchon.png",
+      })
+  }
+  }
+
   render() { 
     return ( 
-      <div className="Object" onClick={() => this.toggleInfos()}>
+      <div className="Object">
         <Row className="objectRow mr-1 ml-0">
-          <img src="https://via.placeholder.com/150x50" alt="placeholdimage" />
+          <img src={this.props.img} alt="img" onClick={() => this.toggleInfos()} />
           <p><strong>Objet : </strong>{this.props.name}</p>
           <p><strong>Type : </strong>{this.props.type}</p>
           <p><strong>Consommation : </strong> {this.props.consumption} W</p>
-          <input type="image" id="image" alt="Login" width="80px" height="50%"
-       src="https://static.thenounproject.com/png/1432570-200.png"/>
+          <button className="switch" onClick={() => this.switchOff()}>  <img src={this.state.switchimg} alt="Login" width="30%" height="30%" /> </button>
         </Row>
         <div className={this.state.objectDivClass}>{this.props.description}</div>
       </div>
