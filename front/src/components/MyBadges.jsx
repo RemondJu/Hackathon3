@@ -5,11 +5,12 @@ import Badge from './Badge';
 
 const MyBadges = (props) => (
   <div className="MyBadges">
-    <h2>My badges</h2>
+    <h2>Mes badges</h2>
     <div className="badges">
-      {props.badgesList.map(badge => {
+      {props.badgesList.map((badge, index) => {
         return(
           <Badge 
+            key={index}
             name={badge.name}
             progress={badge.progress}
           />
