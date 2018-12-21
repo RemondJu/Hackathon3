@@ -91,7 +91,8 @@ class Badge extends Component {
   render() { 
     return ( 
       <div className="badge">
-        <img width= "70px" src={this.state.imagePic} alt="badge icon" />
+        <img width= "170px" src={this.state.imagePic} alt="badge icon" />
+        <p>{this.props.name}</p>
       </div>
      );
   }

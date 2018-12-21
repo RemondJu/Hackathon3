@@ -45,7 +45,7 @@ const initialState = [
   },
   {
     name: "badge 8",
-    progress: 31,
+    progress: 100,
     unlockedImage: '../img/trophee8unlock.png',
     lockedImage: '../img/trophee8.png',
   }
