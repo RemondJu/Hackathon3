@@ -11,6 +11,7 @@ import {
   Table,
   Button
 } from "reactstrap";
+import { NavLink } from "react-router-dom";
 import './Community.css';
 
 const Community = props => {
@@ -119,6 +120,11 @@ const Community = props => {
               </tr>
             </tbody>
           </Table>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+        <NavLink to="/forum"><Button color="success" className="forum-button-2" size="lg">FORUM</Button></NavLink>
         </Col>
       </Row>
     </Container>
