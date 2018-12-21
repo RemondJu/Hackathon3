@@ -40,7 +40,7 @@ class MyRooms extends Component {
           <Col className="text-center mt-5 mr-5">
             <h2 className="roomName">{this.state.roomName}</h2>
             <div className="objects">
-              {this.props.roomObjects.map(object => {
+              {this.props.roomObjects.sort(function(a, b){return b.consumption - a.consumption}).map(object => {
                 return(
                   <ObjectInRoom
                     key={object.id}
