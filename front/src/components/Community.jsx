@@ -27,7 +27,7 @@ const Community = props => {
               alt="Card image cap"
             />
             <CardBody className="com-cardbody-1">
-              <CardTitle>1 er</CardTitle>
+              <CardTitle><strong>1 er</strong></CardTitle>
               <CardSubtitle>Jill Smith</CardSubtitle>
             </CardBody>
           </Card>
@@ -41,7 +41,7 @@ const Community = props => {
               alt="Card image cap"
             />
             <CardBody className="com-cardbody-2">
-              <CardTitle>2 ème</CardTitle>
+              <CardTitle><strong>2 ème</strong></CardTitle>
               <CardSubtitle>Eve Jackson</CardSubtitle>
             </CardBody>
           </Card>
@@ -53,7 +53,7 @@ const Community = props => {
               alt="Card image cap"
             />
             <CardBody className="com-cardbody-3">
-              <CardTitle>3 ème</CardTitle>
+              <CardTitle><strong>3 ème</strong></CardTitle>
               <CardSubtitle>Thomas Gonzalez</CardSubtitle>
             </CardBody>
           </Card>
