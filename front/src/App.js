@@ -9,6 +9,7 @@ import MyHome from './components/MyHome';
 import MyBadges from './components/MyBadges';
 import PageRegist from './components/PageRegist';
 import Community from './components/Community';
+import Forum from './components/Forum';
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
           <Route path="/mon-compte" component={MonCompte} />
           <Route path="/myBadges" component={MyBadges} />
           <Route path="/pageRegister" component={PageRegist} />
+          <Route path="/forum" component={Forum} />
         </Switch>
       </div>
     );
