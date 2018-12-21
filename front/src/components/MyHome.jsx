@@ -10,7 +10,7 @@ const MyHome = (props) => (
     <h2 className="title-h2-my-home">Ma maison</h2>
     <Container>
       <Row>
-        {props.roomList.map(room => {
+        {props.roomList.sort(function(a, b){return a.consumption - b.consumption}).map(room => {
           return (
               <Col md="4">
                 <DetailsHome name={room.name} consumption={room.consumption} type={room.type} classColor={room.classColor}/>

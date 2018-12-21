@@ -32,7 +32,7 @@ export default class Navigation extends React.Component {
           </NavLink>
         </NavItem>
         <NavItem className="nav-items">
-          <NavLink href="/favoris/">
+          <NavLink href="/community/">
 
             <img
               className="community"
