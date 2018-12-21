@@ -5,16 +5,18 @@ import Badge from './Badge';
 
 const MyBadges = (props) => (
   <div className="MyBadges">
-    {props.badgesList.map(badge => {
-      return(
-        <Badge 
-          name={badge.name}
-          progress={badge.progress}
-          pic={badge.progress === 100 ? badge.unlockedImage : badge.lockedImage}
-        />
-      )
-      
-    })}
+    <h2>My badges</h2>
+    <div className="badges">
+      {props.badgesList.map(badge => {
+        return(
+          <Badge 
+            name={badge.name}
+            progress={badge.progress}
+          />
+        )
+      })}
+    </div>
+    
   </div>
 ) 
 
