@@ -38,7 +38,7 @@ const initialState = [
       img: "../images/bazooka.png",
       type: "Ordinateur",
       consumption: 350,
-      description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
+      description: 'Ordinateur Gamer: très gourmand en energie;      En veille(durée): 16jour/mois;   Consommation par jour: 23,03 kWh/jours',
     },
     {
       id: 6,
