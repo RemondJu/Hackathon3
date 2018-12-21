@@ -32,7 +32,7 @@ class MyRooms extends Component {
             {this.props.roomList.map((room, index) => {
               return (
                 <button key={room.id} type="button" className="room" onClick={() => this.handleRoomClick(index)} name={room.type}>
-                  {room.name}
+                  <img src={room.img} alt="room" width="50%" height="50%" />
                 </button>
               );
             })}
