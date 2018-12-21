@@ -4,7 +4,7 @@ import "./Forum.css";
 
 const Forum = () => {
   return (
-    <Container fluid>
+    <Container fluid className="Forum">
       <h1 className="title-forum">
         <strong>FORUM</strong>
       </h1>
