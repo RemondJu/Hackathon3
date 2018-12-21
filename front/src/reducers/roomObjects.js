@@ -3,6 +3,7 @@ const initialState = [
     {
       id: 1,
       name: "LG 22MT49DF",
+      img: "../images/tv.png",
       type: "Television",
       consumption: 22,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -10,6 +11,7 @@ const initialState = [
     {
       id: 2,
       name: "MSI GL63 8RC-274XFR",
+      img: "../images/laptop.png",
       type: "Laptop",
       consumption: 30,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -17,6 +19,7 @@ const initialState = [
     {
       id: 3,
       name: "PS4",
+      img: "../images/ps4.png",
       type: "Game console",
       consumption: 100,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -24,6 +27,7 @@ const initialState = [
     {
       id: 4,
       name: "Nintendo Switch",
+      img: "../images/nintendo.png",
       type: "Game console",
       consumption: 15,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -31,6 +35,7 @@ const initialState = [
     {
       id: 5,
       name: "LDLC PC Bazooka",
+      img: "../images/bazooka.png",
       type: "Computer",
       consumption: 350,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -40,6 +45,7 @@ const initialState = [
     {
       id: 1,
       name: "Behringer audio",
+      img: "../images/berhinger.png",
       type: "Hifi",
       consumption: 15,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -47,6 +53,7 @@ const initialState = [
     {
       id: 2,
       name: "lampe ikea",
+      img: "../images/lamp.png",
       type: "Light",
       consumption: 50,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -54,6 +61,7 @@ const initialState = [
     {
       id: 3,
       name: "Radio réveil",
+      img: "../images/reveil.png",
       type: "Hifi",
       consumption: 100,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -63,6 +71,7 @@ const initialState = [
     {
       id: 1,
       name: "LG 22MT49DF",
+      img: "../images/tv.png",
       type: "Television",
       consumption: 22,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -70,6 +79,7 @@ const initialState = [
     {
       id: 2,
       name: "MSI GL63 8RC-274XFR",
+      img: "../images/laptop.png",
       type: "Laptop",
       consumption: 30,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -77,6 +87,7 @@ const initialState = [
     {
       id: 3,
       name: "PS4",
+      img: "../images/ps4.png",
       type: "Game console",
       consumption: 100,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -84,6 +95,7 @@ const initialState = [
     {
       id: 4,
       name: "Nintendo Switch",
+      img: "../images/nintendo.png",
       type: "Game console",
       consumption: 15,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -91,6 +103,7 @@ const initialState = [
     {
       id: 5,
       name: "LDLC PC Bazooka",
+      img: "../images/bazooka.png",
       type: "Computer",
       consumption: 350,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -100,6 +113,7 @@ const initialState = [
     {
       id: 1,
       name: "Behringer audio",
+      img: "../images/berhinger.png",
       type: "Hifi",
       consumption: 15,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -107,6 +121,7 @@ const initialState = [
     {
       id: 2,
       name: "lampe ikea",
+      img: "../images/lamp.png",
       type: "Light",
       consumption: 50,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -114,6 +129,7 @@ const initialState = [
     {
       id: 3,
       name: "Radio réveil",
+      img: "../images/reveil.png",
       type: "Hifi",
       consumption: 100,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -123,6 +139,7 @@ const initialState = [
     {
       id: 1,
       name: "LG 22MT49DF",
+      img: "../images/tv.png",
       type: "Television",
       consumption: 22,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -130,6 +147,7 @@ const initialState = [
     {
       id: 2,
       name: "MSI GL63 8RC-274XFR",
+      img: "../images/laptop.png",
       type: "Laptop",
       consumption: 30,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -137,6 +155,7 @@ const initialState = [
     {
       id: 3,
       name: "PS4",
+      img: "../images/ps4.png",
       type: "Game console",
       consumption: 100,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -144,13 +163,14 @@ const initialState = [
     {
       id: 4,
       name: "Nintendo Switch",
-      type: "Game console",
+      img: "../images/nintendo.png",
       consumption: 15,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
     },
     {
       id: 5,
       name: "LDLC PC Bazooka",
+      img: "../images/bazooka.png",
       type: "Computer",
       consumption: 350,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -160,6 +180,7 @@ const initialState = [
     {
       id: 1,
       name: "Behringer audio",
+      img: "../images/berhinger.png",
       type: "Hifi",
       consumption: 15,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -167,6 +188,7 @@ const initialState = [
     {
       id: 2,
       name: "lampe ikea",
+      img: "../images/lamp.png",
       type: "Light",
       consumption: 50,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',
@@ -174,6 +196,7 @@ const initialState = [
     {
       id: 3,
       name: "Radio réveil",
+      img: "../images/reveil.png",
       type: "Hifi",
       consumption: 100,
       description: 'Duis elementum imperdiet lectus. In et odio quis magna facilisis fringilla non non lacus. Quisque ornare, quam sit amet ultrices sagittis, velit nunc aliquet mauris, ac vehicula ante mauris quis magna. In egestas vulputate convallis. Aliquam erat volutpat. Vivamus dapibus quis dolor nec sodales. Ut luctus sed ipsum et fermentum.',

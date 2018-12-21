@@ -44,6 +44,7 @@ class MyRooms extends Component {
                 return(
                   <ObjectInRoom
                     key={object.id}
+                    img={object.img}
                     name={object.name}
                     type={object.type}
                     consumption={object.consumption}
