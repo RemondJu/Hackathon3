@@ -79,3 +79,8 @@ td {
   margin-bottom: 150px;
   font-size: 1.5em!important;
 }
+
+.row-bouton-forum {
+  margin-top: -40px;
+  justify-content: center;
+}

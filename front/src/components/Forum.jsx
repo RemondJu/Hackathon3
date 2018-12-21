@@ -5,9 +5,7 @@ import "./Forum.css";
 const Forum = () => {
   return (
     <Container fluid className="Forum">
-      <h1 className="title-forum">
-        <strong>FORUM</strong>
-      </h1>
+      <h2 className="title-forum">Forum</h2>
       <Button className="forum-add-b" color="success"><i class="fas fa-plus-circle"></i> Nouveau sujet</Button>
       <Row className="forum-first">
         <Col lg={10} className="forum-rub">
