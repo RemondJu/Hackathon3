@@ -4,6 +4,7 @@
   background-image: url("/images/backgroundwhite.png");
   height: 100%;
   background-position: center;
+  background-attachment: fixed;
   background-size: 100%;
   background-repeat: no-repeat;
 }
