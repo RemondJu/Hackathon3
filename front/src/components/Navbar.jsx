@@ -35,8 +35,8 @@ export default class Navigation extends React.Component {
           <NavLink href="/favoris/">
 
             <img
-              className="favoris"
-              src="../images/fav.png"
+              className="community"
+              src="../images/community.png"
               alt="logoNavbar"
               height="40"
               width="40"
@@ -68,7 +68,7 @@ export default class Navigation extends React.Component {
           </NavLink>
         </NavItem>
         <NavItem className="nav-items">
-          <NavLink href="/moncompte/">
+          <NavLink href="/mon-compte">
             
             <img
               className="moncompte"
@@ -79,6 +79,7 @@ export default class Navigation extends React.Component {
             />
           </NavLink>
         </NavItem>
+
       </nav>
     );
   }
