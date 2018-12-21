@@ -16,7 +16,7 @@ import './Community.css';
 const Community = props => {
   return (
     <Container className="community-wrap">
-    <h1 className="com-title">Classement</h1>
+    <h2 className="com-title">Classement</h2>
       <Row className="row-community">
         <Col className="col-top1" lg={3}>
           <Card className="com-card-1">
