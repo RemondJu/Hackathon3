@@ -36,6 +36,14 @@ const HomePage = () => (
           <img src="/images/Schema.png" alt="schema" className="homepage-schema" />
         </Col>
       </Row>
+      <Row>
+        <Col className="starterDesc">
+            <h3>Ec'Home starter pack</h3>
+            <img src="http://les-smartgrids.fr/wp-content/uploads/2017/10/prise-connectee.png" alt="prise connectée maison" />
+            
+            <p>Obtenez vos prises connectées et suivez en direct la consommation de votre maison</p>
+        </Col>
+      </Row>
     </Container>
 );
 
