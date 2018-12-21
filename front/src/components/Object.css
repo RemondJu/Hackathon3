@@ -5,6 +5,9 @@
   background-color: rgb(235, 235, 235);
   display: flex;
   justify-content: space-between;
+  background-image: url(/images/backgroundCarte2.png);
+  background-position: center;
+  background-size: 1500px;
 }
 
 .objectRow img{
@@ -32,6 +35,28 @@
 }
 
 .switch:focus {
+  outline: none;
+  border: none;
+}
+
+.moreDetail{
+  position: relative;
+  margin: auto;
+  bottom: 50px;
+  background-color: rgba(255,255,255, 0);
+  border: none;
+}
+
+.fas{
+  transform: scale(2,2);
+}
+
+.fas:hover{
+  transform: scale(2.2,2.2);
+  color: rgb(35, 187, 47);
+}
+
+.moreDetail:focus{
   outline: none;
   border: none;
 }
