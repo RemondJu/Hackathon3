@@ -16,8 +16,7 @@ const MyBadges = (props) => (
           />
         )
       })}
-    </div>
-    
+    </div>    
   </div>
 ) 
 
