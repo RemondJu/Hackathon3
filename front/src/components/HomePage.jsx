@@ -33,7 +33,7 @@ const HomePage = () => (
       </Row>
       <Row>
         <Col className="homepage-schema-wrap">
-          <img src="" alt="schema" className="homepage-schema" />
+          <img src="/images/Schema.png" alt="schema" className="homepage-schema" />
         </Col>
       </Row>
     </Container>
