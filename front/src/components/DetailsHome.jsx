@@ -41,7 +41,7 @@ class DetailsHome extends Component {
   render() {
     return (
       <div className="DetailsHome">
-        <Link to="/MyRooms">
+        <Link to="/mes-pieces">
           <Card className={`card-details-home ${this.props.classColor}`} >
             <CardBody className="card-body-details-home">
               <CardTitle className="title-card-details">{this.props.name}</CardTitle>

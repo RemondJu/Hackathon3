@@ -15,7 +15,7 @@ const HomePage = () => (
           md={3}
           sm={2}
         >
-          <NavLink to="/pageRegister">
+          <NavLink to="/connexion">
             <Button className="homepage-button-first" color="primary">
               INSCRIPTION
               <i class="far fa-edit" />
@@ -23,7 +23,7 @@ const HomePage = () => (
           </NavLink>
         </Col>
         <Col className="homepage-button-wrap2" xl={2} md={3} sm={2}>
-          <NavLink to="/myHome">
+          <NavLink to="/accueil">
             <Button className="homepage-button-second" color="primary">
               CONNEXION
               <i class="far fa-user" />

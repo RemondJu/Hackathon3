@@ -20,7 +20,7 @@ export default class Navigation extends React.Component {
     return (
       <nav className="nav">
         <NavItem className="nav-items">
-          <NavLink href="/myhome/">
+          <NavLink href="/accueil">
 
             <img
               className="home"
@@ -32,7 +32,7 @@ export default class Navigation extends React.Component {
           </NavLink>
         </NavItem>
         <NavItem className="nav-items">
-          <NavLink href="/community/">
+          <NavLink href="/communaute">
 
             <img
               className="community"
@@ -56,7 +56,7 @@ export default class Navigation extends React.Component {
           </NavLink>
         </NavItem>
         <NavItem className="nav-items">
-          <NavLink href="/myBadges/">
+          <NavLink href="/mes-badges">
        
             <img
               className="trophees"

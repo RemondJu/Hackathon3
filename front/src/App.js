@@ -18,12 +18,12 @@ class App extends Component {
         <Navigation />
         <Switch >
           <Route exact path="/" component={HomePage} />
-          <Route path="/myHome" component={MyHome} />
-          <Route path="/myRooms" component={MyRooms} />
-          <Route path="/community" component={Community} />
+          <Route path="/accueil" component={MyHome} />
+          <Route path="/mes-pieces" component={MyRooms} />
+          <Route path="/communaute" component={Community} />
           <Route path="/mon-compte" component={MonCompte} />
-          <Route path="/myBadges" component={MyBadges} />
-          <Route path="/pageRegister" component={PageRegist} />
+          <Route path="/mes-badges" component={MyBadges} />
+          <Route path="/connexion" component={PageRegist} />
           <Route path="/forum" component={Forum} />
         </Switch>
       </div>
