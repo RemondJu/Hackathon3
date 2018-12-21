@@ -26,7 +26,7 @@ export default class Example extends React.Component {
               </FormGroup>
               <FormGroup>
                 <Label for="examplePassword">Confirmer mot de passe</Label>
-                <Input type="passwordConfirm" name="passwordconfirm" />
+                <Input type="password" name="passwordconfirm" />
               </FormGroup>
               <NavLink to="/accueil"><Button className="homepage-button-first" color="primary">Créer</Button></NavLink>
             </Form>

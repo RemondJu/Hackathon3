@@ -6,7 +6,7 @@ const Forum = () => {
   return (
     <Container fluid className="Forum">
       <h2 className="title-forum">Forum</h2>
-      <Button className="forum-add-b" color="success"><i class="fas fa-plus-circle"></i> Nouveau sujet</Button>
+      <Button className="forum-add-b" color="success"><i className="fas fa-plus-circle"></i>Nouveau sujet</Button>
       <Row className="forum-first">
         <Col lg={10} className="forum-rub">
           <Media>
