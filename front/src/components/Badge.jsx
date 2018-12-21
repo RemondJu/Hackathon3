@@ -11,7 +11,7 @@ class Badge extends Component {
 
   componentDidMount(){
     switch (this.props.name) {
-      case 'badge 1': 
+      case 'Noctambule': 
         this.props.progress === 100 ?
         this.setState({
           imagePic: "../images/trophee1unlock.png"
@@ -20,7 +20,7 @@ class Badge extends Component {
           imagePic: "../images/trophee1.png"
         });
       break;
-      case 'badge 2': 
+      case 'EcoStar': 
         this.props.progress === 100 ?
         this.setState({
           imagePic: "../images/trophee2unlock.png"
@@ -29,7 +29,7 @@ class Badge extends Component {
           imagePic: "../images/trophee2.png"
         });
       break;
-      case 'badge 3': 
+      case `Magicien d'Oz`: 
         this.props.progress === 100 ?
         this.setState({
           imagePic: "../images/trophee3unlock.png"
@@ -38,7 +38,7 @@ class Badge extends Component {
           imagePic: "../images/trophee3.png"
         });
       break;
-      case 'badge 4': 
+      case 'Le Bon Samaritain': 
         this.props.progress === 100 ?
         this.setState({
           imagePic: "../images/trophee4unlock.png"
@@ -47,7 +47,7 @@ class Badge extends Component {
           imagePic: "../images/trophee4.png"
         });
       break;
-      case 'badge 5': 
+      case 'Offline': 
         this.props.progress === 100 ?
         this.setState({
           imagePic: "../images/trophee5unlock.png"
@@ -56,7 +56,7 @@ class Badge extends Component {
           imagePic: "../images/trophee5.png"
         });
       break;
-      case 'badge 6': 
+      case 'CarboCool': 
         this.props.progress === 100 ?
         this.setState({
           imagePic: "../images/trophee6unlock.png"
@@ -65,7 +65,7 @@ class Badge extends Component {
           imagePic: "../images/trophee6.png"
         });
       break;
-      case 'badge 7': 
+      case 'Le Sobre': 
         this.props.progress === 100 ?
         this.setState({
           imagePic: "../images/trophee7unlock.png"
@@ -74,7 +74,7 @@ class Badge extends Component {
           imagePic: "../images/trophee7.png"
         });
       break;
-      case 'badge 8': 
+      case 'ECO MASTER': 
         this.props.progress === 100 ?
         this.setState({
           imagePic: "../images/trophee8unlock.png"

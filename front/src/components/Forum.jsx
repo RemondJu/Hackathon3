@@ -1,6 +1,6 @@
 import React from 'react';
 import { Media } from 'reactstrap';
-import Forum from './Forum.css';
+import './Forum.css';
 
 const Forum = () => {
   return (

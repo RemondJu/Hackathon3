@@ -5,13 +5,14 @@
   max-width: 70%;
   margin: auto;
 }
+
 .badges{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 90px 0px;
-  
+  margin: 90px 0px;  
 }
+
 .MyBadges h2{
   margin: 20px 15px;
 }
