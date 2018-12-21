@@ -19,11 +19,8 @@ class App extends Component {
           <Route exact path="/" component={HomePage} />
           <Route path="/myHome" component={MyHome} />
           <Route path="/myRooms" component={MyRooms} />
-
           <Route path="/community" component={Community} />
-
           <Route path="/mon-compte" component={MonCompte} />
-
           <Route path="/myBadges" component={MyBadges} />
           <Route path="/pageRegister" component={PageRegist} />
         </Switch>
