@@ -122,9 +122,9 @@ const Community = props => {
           </Table>
         </Col>
       </Row>
-      <Row>
-        <Col>
-        <NavLink to="/forum"><Button color="success" className="forum-button-2" size="lg">FORUM</Button></NavLink>
+      <Row className="row-bouton-forum">
+        <Col md={3}>
+          <NavLink to="/forum"><Button color="success" className="forum-button-2" size="md">Forum</Button></NavLink>
         </Col>
       </Row>
     </Container>

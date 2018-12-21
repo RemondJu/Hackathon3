@@ -5,7 +5,7 @@ import Badge from './Badge';
 
 const MyBadges = (props) => (
   <div className="MyBadges">
-    <h2>Mes badges</h2>
+    <h2>Mes trophées</h2>
     <div className="badges">
       {props.badgesList.map((badge, index) => {
         return(
