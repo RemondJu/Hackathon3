@@ -8,9 +8,11 @@ import './MyHome.css';
 const MyHome = (props) => (
   <div className="MyHome">
     <h2 className="title-h2-my-home">Ma maison</h2>
+    <p>Consomation : 17 kWh</p>
+    <p className="titleEnd">Empreinte carbone : 1.1t CO2/ mois</p>
     <Container>
       <Row>
-        {props.roomList.sort(function(a, b){return a.consumption - b.consumption}).map(room => {
+        {props.roomList.map(room => {
           return (
               <Col md="4">
                 <DetailsHome name={room.name} consumption={room.consumption} type={room.type} classColor={room.classColor}/>
