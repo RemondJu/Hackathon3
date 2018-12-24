@@ -16,7 +16,7 @@ const Forum = () => {
               className="image-first"
             />
             <Media body>
-              <Media heading>Fairphone, une bonne alertanive</Media>
+              <Media heading>Fairphone, une bonne alternative</Media>
               L’année dernière, mon téléphone de la marque Sony a commencé à
               montrer des signes de faiblesse. La mémoire était pleine, je ne
               pouvais plus faire de mises à jour et des bugs de plus en plus
