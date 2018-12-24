@@ -1,4 +1,4 @@
-Projet Ec'Home hackathon The shift Project
+Projet Ec'Home - The shift Project Hackathon
 
 Regional first place (Bordeaux)
 
