@@ -1,1 +1,5 @@
-console.log("test");
+export const roomClick = (idx) => ({
+  type: 'ROOM_CLICKED',
+  idx,
+});
+
